@@ -15,7 +15,7 @@ align-items: center;
 }
 
 .logo {
-    margin-left: 2rem;
+    margin-left: 6vw;
     max-width: 100px;
 }
 
@@ -45,3 +45,56 @@ align-items: center;
     margin-left: 6vw;
     max-width: 350px;
 }
+
+.card-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 6vw;
+    margin-top: 4vw;
+    padding-bottom: 4rem;
+}
+
+.card-image {
+    width: 250px;
+}
+
+.card-star {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5%;
+}
+
+.card-flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-gray {
+    color: gray;
+}
+
+.card-rating {
+    margin-right: 0.5%;
+}
+
+
+
+.sold-out {
+    position: absolute;
+    padding: 0.25rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    left: 0.5rem;
+    top: 0.5rem;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
