@@ -96,5 +96,97 @@ align-items: center;
 
 
 
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+@media only screen and (max-width: 1200px) {
 
 
+   
+        .grid {
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+    
+            
+        }
+
+        .card-image {
+            width: 200px;
+        }
+    }
+
+    @media only screen and (max-width: 950px) {
+     
+    
+       
+            .grid {
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+        
+                
+            }
+    
+            .card-image {
+                width: 150px;
+            }
+        }
+  
+
+    @media only screen and (max-width: 600px) { 
+     
+          .grid {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+
+        .card-image {
+            width: 130px;
+        }
+    }
+    @media only screen and (max-width: 560px) { 
+     
+          .grid {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            justify-content: center;
+            align-items: center;
+    
+            
+        }
+
+        p {
+            font-size: 0.75rem;
+        }
+
+        .card-image {
+            width: 110px;
+        }
+    }
+    @media only screen and (max-width: 550px) { 
+    
+          .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+    
+            
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+
+        .card-image {
+            width: 130px;
+        }
+    }
